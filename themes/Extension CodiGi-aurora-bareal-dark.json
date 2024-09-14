@@ -1,0 +1,62 @@
+{
+    "name": "Aurora Boreal",
+    "colors": {
+      "editor.background": "#0B1A29", 
+      "editor.foreground": "#E3E8ED", 
+      "editor.selectionBackground": "#39414A", 
+      "editor.lineHighlightBackground": "#1B2B40", 
+      "editorCursor.foreground": "#76D7C4", 
+      "editorWhitespace.foreground": "#394A57", 
+      "activityBar.background": "#112333", 
+      "sideBar.background": "#12283B", 
+      "statusBar.background": "#0F1D30", 
+      "tab.activeBackground": "#1F3044",
+      "tab.inactiveBackground": "#132436",
+      "tab.border": "#0B1A29"
+    },
+    "tokenColors": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "foreground": "#6C849B"
+        }
+      },
+      {
+        "scope": ["string", "constant.character"],
+        "settings": {
+          "foreground": "#A0FFB3"
+        }
+      },
+      {
+        "scope": ["keyword", "storage.type"],
+        "settings": {
+          "foreground": "#CC99FF"
+        }
+      },
+      {
+        "scope": ["variable", "parameter"],
+        "settings": {
+          "foreground": "#F2FF91"
+        }
+      },
+      {
+        "scope": ["function", "support.function"],
+        "settings": {
+          "foreground": "#76D7C4"
+        }
+      },
+      {
+        "scope": ["type", "support.type"],
+        "settings": {
+          "foreground": "#A3E4FF"
+        }
+      },
+      {
+        "scope": ["constant.numeric", "constant.language"],
+        "settings": {
+          "foreground": "#FFD479"
+        }
+      }
+    ]
+  }
+  
